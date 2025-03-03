@@ -1,9 +1,9 @@
-//import Country from "@/components/Country";
+import Home from "@/components/Home";
 
-export default function Home() {
+export default function pageHome() {
   return (
     <>
-      <div>Tanstack</div>
+      <Home/>
     </>
   );
 }

@@ -1,6 +1,5 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import { Toaster } from "sonner";
 import { TanstackProvider } from "@/lib/TanstackProvider";
 import Header from "@/components/Header";
 import Footer from "@/components/Footer";
@@ -25,7 +24,6 @@ export default function RootLayout({
           </main>
           <Footer />
         </TanstackProvider>
-        <Toaster position="top-center" />
       </body>
     </html>
   );

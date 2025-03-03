@@ -13,23 +13,16 @@ export default async function Header() {
       </menu>
       <aside className="flex justify-center items-center gap-4 md:gap-6">
         <Link
-          href="/users"
+          href="/comments"
           className="text-base font-semibold border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-yellow-300  transition duration-300"
         >
-          Users
+          Comments
         </Link>
         <Link
-          href="/posts"
+          href="/formpost"
           className="text-base font-semibold border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-yellow-300  transition duration-300"
         >
-          Posts
-        </Link>
-
-        <Link
-          href="/supabase"
-          className="text-base font-semibold border-2 border-blue-900 px-4 py-2 rounded-md hover:bg-yellow-300  transition duration-300"
-        >
-          Supabase
+          FormPost
         </Link>
       </aside>
     </nav>
